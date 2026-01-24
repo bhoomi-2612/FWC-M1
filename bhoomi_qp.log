@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.21)  22 JAN 2026 07:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.21)  24 JAN 2026 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,20 +348,20 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4590 strings out of 473197
- 73119 string characters out of 5718605
- 479530 words of memory out of 5000000
- 27823 multiletter control sequences out of 15000+600000
- 564395 words of font info for 57 fonts, out of 8000000 for 9000
+ 4596 strings out of 473197
+ 73241 string characters out of 5718605
+ 479539 words of memory out of 5000000
+ 27829 multiletter control sequences out of 15000+600000
+ 565606 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,244b,294s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,244b,294s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on bhoomi_qp.pdf (2 pages, 92216 bytes).
+Output written on bhoomi_qp.pdf (2 pages, 94932 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
