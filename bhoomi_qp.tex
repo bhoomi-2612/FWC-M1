@@ -120,5 +120,44 @@ and find the maximum profit graphically.
 
 \end{enumerate}
 \end{multicols}
+\section*{Task 1}
+
+\subsection*{Problem 1}
+Solve:
+\[
+x \frac{dy}{dx} + y - x + xy\cot x = 0
+\]
+
+\begin{align}
+x\frac{dy}{dx} + y &= x - xy\cot x \\
+\frac{dy}{dx} + \frac{y}{x} &= 1 - y\cot x
+\end{align}
+
+This is a linear differential equation.
+
+\subsection*{Problem 2}
+Solve:
+\[
+(x^2 + 3xy + y^2)\,dx - x^2\,dy = 0
+\]
+Given $y(1)=0$.
+
+\begin{align}
+\frac{dy}{dx} &= \frac{x^2 + 3xy + y^2}{x^2}
+\end{align}
+
+This equation is homogeneous.  
+Using substitution $y = vx$ and applying the given condition gives the solution.
+
+\subsection*{Problem 3}
+Find the angle between $(\vec a + \vec b)$ and $(\vec a - \vec b)$.
+
+\begin{align}
+\cos\theta &= 
+\frac{(\vec a + \vec b)\cdot(\vec a - \vec b)}
+{|\vec a + \vec b||\vec a - \vec b|} \\
+&= \frac{|\vec a|^2 - |\vec b|^2}
+{|\vec a + \vec b||\vec a - \vec b|}
+\end{align}
 
 \end{document}
