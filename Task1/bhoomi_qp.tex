@@ -1,21 +1,10 @@
 \documentclass[12pt]{article}
 
-% ------------------ Packages ------------------
+% ------------------ Packages (sir style) ------------------
 \usepackage[none]{hyphenat}
 \usepackage{graphicx}
-\usepackage{listings}
-\usepackage[english]{babel}
-\usepackage{caption}
-\usepackage{hyperref}
-\usepackage{booktabs}
-\usepackage{array}
 \usepackage{amsmath}
-\usepackage{multicol}
-
-\lstset{
-  frame=single,
-  breaklines=true
-}
+\usepackage{amssymb}
 
 % ------------------ Macros (sir's format) ------------------
 \newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
@@ -25,26 +14,21 @@
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \let\vec\mathbf
 
-% ------------------ Document ------------------
 \begin{document}
 
-% ------------------ Header ------------------
 \begin{center}
 \includegraphics[width=0.4\linewidth]{Logo.png}
 \end{center}
 
 \begin{center}
 \textbf{\Large CBSE Maths Questions – 2016}\\
-\vspace{0.2cm}
 \textbf{Name: Bhoomika B V}\\
 \textbf{ID: COMETFWC046}\\
 \textbf{Date: 21 Jan 2026}
 \end{center}
 
-\vspace{0.5cm}
+\section*{Questions}
 
-% ------------------ Questions ------------------
-\begin{multicols}{2}
 \begin{enumerate}
 \setcounter{enumi}{13}
 
@@ -64,11 +48,10 @@ x\frac{dy}{dx} + y - x + xy\cot x = 0,\; x \neq 0
 \]
 given that $y=0$ when $x=1$.
 
-\item Find the angle between the vectors
-$(\vec{a}+\vec{b})$ and $(\vec{a}-\vec{b})$ if
+\item Find the angle between the vectors $(\vec a+\vec b)$ and $(\vec a-\vec b)$ if
 \[
-\vec{a} = 2\hat{i} - \hat{j} + 3\hat{k}, \quad
-\vec{b} = 3\hat{i} + \hat{j} - 2\hat{k}
+\vec a = 2\hat{i} - \hat{j} + 3\hat{k}, \quad
+\vec b = 3\hat{i} + \hat{j} - 2\hat{k}.
 \]
 Also find a vector perpendicular to both.
 
@@ -82,7 +65,7 @@ intersect. Find their point of intersection.
 
 \item A committee of 4 students is selected from 7 boys and 4 girls.
 Find the probability that the committee contains exactly 2 girls,
-given that at least one girl is in the committee.
+given that at least one girl is selected.
 
 \item Show that the relation $R$ defined by
 \[
@@ -92,7 +75,7 @@ on $A \times A$, where $A=\{1,2,3,\ldots,10\}$,
 is an equivalence relation.
 Hence write the equivalence class of $(3,4)$.
 
-\item Solve for $x$:
+\item Solve:
 \[
 \mydet{
 a+x & a-x & a \\
@@ -123,56 +106,38 @@ x + 2y + 3z = 2
 \]
 Also find the image of $P$ in the plane.
 
-\item A, B and C throw a pair of dice alternately until one gets a total of 9.
+\item A, B and C throw a pair of dice alternately until one gets a total of $9$.
 Find the probability that A wins, if A starts first.
 
 \item A company manufactures two types of cardigans.
 Formulate the LPP and find the maximum profit graphically.
 
 \end{enumerate}
-\end{multicols}
 
-% ------------------ Task 1 Solutions ------------------
 \section*{Task 1}
 
 \subsection*{Problem 1}
-Solve:
+
+\solution
 \[
 x\frac{dy}{dx} + y - x + xy\cot x = 0
 \]
 
-\solution
-\begin{align}
-x\frac{dy}{dx} + y &= x - xy\cot x \\
-\frac{dy}{dx} + \frac{y}{x} &= 1 - y\cot x
-\end{align}
-
 \subsection*{Problem 2}
-Solve:
-\[
-(x^2 + 3xy + y^2)\,dx - x^2\,dy = 0
-\]
-Given $y(1)=0$.
 
 \solution
 \[
-\frac{dy}{dx} = \frac{x^2 + 3xy + y^2}{x^2}
+(x^2 + 3xy + y^2)\,dx - x^2\,dy = 0, \quad y(1)=0
 \]
-
-This is a homogeneous equation.  
-Using $y = vx$ and applying the condition gives the solution.
 
 \subsection*{Problem 3}
-Find the angle between $(\vec a + \vec b)$ and $(\vec a - \vec b)$.
 
 \solution
+Angle between $(\vec a+\vec b)$ and $(\vec a-\vec b)$ is given by
 \[
 \cos\theta =
-\frac{(\vec a + \vec b)\cdot(\vec a - \vec b)}
-{\norm{\vec a + \vec b}\norm{\vec a - \vec b}}
-=
-\frac{\norm{\vec a}^2 - \norm{\vec b}^2}
-{\norm{\vec a + \vec b}\norm{\vec a - \vec b}}
+\frac{(\vec a+\vec b)\cdot(\vec a-\vec b)}
+{\norm{\vec a+\vec b}\norm{\vec a-\vec b}}
 \]
 
 \end{document}
