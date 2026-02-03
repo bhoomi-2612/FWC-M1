@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.21)  3 FEB 2026 06:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.21)  3 FEB 2026 07:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,12 +300,12 @@ LaTeX Font Info:    ... okay on input line 12.
 \makeMPintoPDFobject=\count303
 \everyMPtoPDFconversion=\toks26
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -327,7 +327,7 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  3710 strings out of 473197
  53762 string characters out of 5718605
- 483540 words of memory out of 5000000
+ 482540 words of memory out of 5000000
  26955 multiletter control sequences out of 15000+600000
  563789 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -341,7 +341,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb>
-Output written on ncert.pdf (4 pages, 100216 bytes).
+Output written on ncert.pdf (4 pages, 100063 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
